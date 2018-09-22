@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_login"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/title_login"
+            />
+
+        <item
+            android:id="@+id/navigation_signup"
+            android:icon="@drawable/ic_lock"
+            android:title="@string/title_signup"
+
+            />
+
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_view_list"
+            android:title="@string/title_home"
+            />
+
+        <item
+            android:id="@+id/navigation_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_dashboard"
+
+            />
+        <item
+            android:id="@+id/navigation_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/title_notifications"
+
+            />
+        <item
+            android:id="@+id/navigation_signals"
+            android:icon="@drawable/ic_ico"
+            android:title="@string/title_signals"
+            />
+        <item
+            android:id="@+id/navigation_blockfolio"
+            android:icon="@drawable/ic_blockfolio"
+            android:title="@string/title_blockfolio"
+            />
+        <item
+            android:id="@+id/navigation_site"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Visit Site"
+            />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_setting"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_thumbs_up"
+                android:title="@string/title_rate" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

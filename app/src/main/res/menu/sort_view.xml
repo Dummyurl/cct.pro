@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item android:id="@+id/sort1h"
+        android:title="Sort By IH"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sort24h"
+        android:title="Sort By 24H"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sort7d"
+        android:title="Sort By 7D"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sortname"
+        android:title="Sort By Name"
+        android:visible="false"
+
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sortmc"
+        android:title="Sort By Market Cap"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sortvol"
+    android:title="Sort By Volume"
+        android:visible="false"
+    app:showAsAction="never" />
+
+
+    <item android:id="@+id/sortcs"
+        android:title="Sort By Circulating Supply"
+        app:showAsAction="never" />
+</menu>
